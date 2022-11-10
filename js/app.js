@@ -71,7 +71,6 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   console.log(productNumber);
   let message1 = `${a} and ${b} and ${c} sum to ${sumNumber}.`;
   let message2 = `The product of ${a} and ${b} and ${c} is ${productNumber}.`;
-
   return [sumNumber, productNumber, message1, message2];
 }
 // Here is the test for sumAndMultiply(); uncomment it to run it
